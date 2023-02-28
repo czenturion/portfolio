@@ -1,0 +1,15 @@
+// Adaptive layouts
+$desktop-width: 1140px;
+$tablet-width: 768px;
+$mobile-width: 320px;
+
+// Color-schema
+$background-color: #cecece;
+$app-wrapper-background-color: #a2a2a2;
+
+// Mixins
+@mixin flexible() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

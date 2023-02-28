@@ -1,0 +1,7 @@
+@import "rules";
+
+.app-wrapper {
+  @include flexible();
+  width: $desktop-width;
+}
+
