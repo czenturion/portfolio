@@ -5,3 +5,11 @@
   width: $desktop-width;
 }
 
+
+.header-element {
+  @include flexible();
+  @include background-image("../assets/images/headerBcg.jpg");
+  width: $desktop-width;
+  height: 500px;
+}
+
